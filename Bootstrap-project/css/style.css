@@ -1,0 +1,130 @@
+.wrapper {
+  background-image: url(../img/blurred-background-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.carousel-control-prev-icon {
+  background-image: url(../img/arrows/left-arrow.svg);
+}
+.carousel-control-next-icon {
+  background-image: url(../img/arrows/right-arrow.svg);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 25px;
+}
+.carousel-control-prev {
+  left: -125px;
+}
+.carousel-control-next {
+  right: -125px;
+}
+.col-4 > img {
+  border: 3px solid;
+  border-radius: 60%;
+}
+.col-8 > h1 {
+  font-family: "Ultra", serif;
+}
+.col-8 > h3 {
+  font-family: "Lobster", cursive;
+  color: #487fc2;
+  margin-left: 25px;
+}
+.navbar {
+  background-color: #e8d6f8;
+}
+.change-color {
+  color: #c72946;
+}
+.font-theme {
+  color: #812ba9;
+  font-family: "Lilita One", cursive;
+  font-family: "Mitr", sans-serif;
+  font-family: "Ultra", serif;
+}
+.nav-color {
+  color: #6d3ecd;
+  font-weight: 700;
+}
+.btn-outline-success {
+  color: #812ba9;
+  font-weight: 600;
+}
+.our-animal {
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  font-family: "Sansita Swashed", cursive;
+  font-weight: 700;
+  color: #487fc2;
+}
+.btn,
+.btn-primary {
+  background-color: #49bcf5;
+}
+.card {
+  background-color: #fefcee;
+}
+.title-questions {
+  text-align: center;
+  font-size: 30px;
+  color: #aa48d1;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.title-animals {
+  text-align: center;
+  color: #487fc2;
+}
+.row-1 {
+  margin-top: 50px;
+}
+.navbar-nav > li {
+  margin-bottom: 20px;
+}
+.navbar-nav > li > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+.navbar-nav > li > a:hover {
+  text-decoration: underline;
+  color: hotpink;
+}
+.margin-bottom {
+  margin-bottom: 25px;
+}
+.footer {
+  background-color: #000;
+}
+.title-footer {
+  text-align: center;
+  color: #c72946;
+  font-family: "Lilita One", cursive;
+  font-family: "Mitr", sans-serif;
+  font-family: "Ultra", serif;
+  padding-top: 25px;
+  margin-bottom: 50px;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list-item {
+  color: #fff;
+  list-style: none;
+  padding-bottom: 25px;
+}
+.footer-list-item > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+.footer-list-item > a:hover {
+  color: #c72946;
+}
